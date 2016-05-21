@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package carrentallist;
-
+import java.util.List;
+import java.util.LinkedList;
 /**
  *
  * @author Fares
@@ -16,6 +17,7 @@ public class CarRentalList {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        List<Car> Cars = new LinkedList<>();
     }
     
 }
