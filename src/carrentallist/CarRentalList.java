@@ -4,12 +4,17 @@
  * and open the template in the editor.
  */
 package carrentallist;
+<<<<<<< HEAD
 import java.util.*;
 import java.io.*;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+=======
+import java.util.List;
+import java.util.LinkedList;
+>>>>>>> master
 /**
  *
  * @author Fares
@@ -21,6 +26,7 @@ public class CarRentalList {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+<<<<<<< HEAD
         /*Car c = new Car();
         c.setModel("Audi");
         c.setNumberPlate("WNR - 5408");
@@ -39,6 +45,9 @@ public class CarRentalList {
         */
         CarRentalList cr = new CarRentalList();
         cr.readSavedCars();
+=======
+        List<Car> Cars = new LinkedList<>();
+>>>>>>> master
     }
     public static void addCar(Car c){
         List<Car> Cars = new LinkedList<Car>();
