@@ -5,14 +5,15 @@
  */
 package carrentallist;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  *
  * @author Fares
  */
-public class Car {
-    private String model,regNumber,regYear;
+public class Car implements Serializable{
+    private String model,regNumber,regYear,numberPlate;
     private Date rdTaxExpDate;
     private double rentalRate;
     public String getModel(){
@@ -29,6 +30,12 @@ public class Car {
     }
     public double getRentalRate(){
         return rentalRate;
+    }
+    public String getNumberPlate(){
+        return numberPlate;
+    }
+    public void setNumberPlate(String nPlate){
+        numberPlate=nPlate;
     }
     public void setModel(String m){
         model=m;
